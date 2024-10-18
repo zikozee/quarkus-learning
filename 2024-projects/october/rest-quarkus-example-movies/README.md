@@ -71,3 +71,8 @@ Easily start your RESTful Web Services
 - quarkus-smallrye-openapi
 - http://<IP>:<PORT>/openapi
 ```
+
+```swagger
+- open api dependency brings it in
+- http://<IP>:<PORT>/q/swagger-ui
+```
