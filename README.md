@@ -8,6 +8,6 @@
 | 5. RestClient (Calling to External services)         | quarkus-rest-client-tvmaze  | `Working with Rest Client` | Done       |
 | 6. CORS (Enabling and Disabling)                     | rest-quarkus-example-movies | `Enable CORS filter`       | Done       |
 | 7. Reactive Sql with Postgres (Optional)             |                             |                            |            |
-| 8. Fault Tolerance                                   |                             |                            |            |
+| 8. Fault Tolerance                                   | quarkus fault tolerance     | using fault tolerance      | Done       |
 | 9. Panache (ORM)                                     |                             |                            |            |
 | 10. Rest Assured (Testing)                           |                             |                            |            |
