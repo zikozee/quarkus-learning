@@ -96,8 +96,6 @@ public class ToleranceService {
      )
      @Fallback(fallbackMethod = "getFallbackExtensions", applyOn = {RuntimeException.class})
     public Set<MyRemoteService.Extension> getExtensionsFallbackWithCircuitBreaker(String extensionId) {
-        //upon timeout an exception is thrown :: org.eclipse.microprofile.faulttolerance.exceptions.Timeout
-        // since error occurs, we could catch Generic error or catch only Timeout with Fallback
          final long invocationNumber = counter.getAndIncrement();
          if(invocationNumber > 15) counter.set(0);
          System.out.println("count: " +invocationNumber);
