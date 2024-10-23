@@ -12,5 +12,6 @@
 | 9. Panache (ORM)                                     |                             |                            |            |
 | 10. Rest Assured (Testing)                           |                             |                            |            |
 | 11. Security between Quarkus application (TLS)       |                             |                            |            |
-| 11. Integration of Quarkus with OAuth2 Server        |                             |                            |            | 
+| 11. Integration of Quarkus with Authorization Server |                             |                            |            | 
 | 12. Spring AI integration with Quarkus               |                             |                            |            |
+| 13. Quarkus with Spring Config Server                |                             |                            |            |
