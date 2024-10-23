@@ -11,3 +11,6 @@
 | 8. Fault Tolerance                                   | quarkus fault tolerance     | using fault tolerance      | Done       |
 | 9. Panache (ORM)                                     |                             |                            |            |
 | 10. Rest Assured (Testing)                           |                             |                            |            |
+| 11. Security between Quarkus application (TLS)       |                             |                            |            |
+| 11. Integration of Quarkus with OAuth2 Server        |                             |                            |            | 
+| 12. Spring AI integration with Quarkus               |                             |                            |            |
