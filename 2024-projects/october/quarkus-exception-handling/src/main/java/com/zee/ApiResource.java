@@ -1,5 +1,6 @@
 package com.zee;
 
+import com.zee.exception.CustomException;
 import com.zee.exception.FieldValidationException;
 import com.zee.exceptiondto.ErrorMessage;
 import com.zee.util.ExceptionUtil;
@@ -51,6 +52,13 @@ public class ApiResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response serverError() {
         throw new ServerErrorException("server error", Response.Status.SERVICE_UNAVAILABLE);
+    }
+
+    @GET
+    @Path("custom-error")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response customError() {
+        throw new CustomException("custom error");
     }
 
     @GET
