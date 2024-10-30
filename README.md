@@ -16,3 +16,4 @@
 | 13. Integration of Quarkus with Authorization Server |                                          |                                 |            | 
 | 14. Spring AI integration with Quarkus               |                                          |                                 |            |
 | 15. Quarkus with Spring Config Server                |                                          |                                 |            |
+| 16. Exception handling                               | quarkus-exception-handling               | quarkus ExceptionHandling       | Done       |
