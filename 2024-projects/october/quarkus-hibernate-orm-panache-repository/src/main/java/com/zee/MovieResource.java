@@ -6,6 +6,7 @@ import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import lombok.RequiredArgsConstructor;
 
 import java.net.URI;
 import java.util.List;
@@ -13,10 +14,10 @@ import java.util.Optional;
 
 @Path("/movies")
 @Produces(MediaType.APPLICATION_JSON)
+@RequiredArgsConstructor
 public class MovieResource {
-
-    @Inject
-    MovieRepository movieRepository;
+    
+    private final MovieRepository movieRepository;
 
     @GET
     public Response getAll(){
